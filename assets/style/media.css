@@ -1,0 +1,212 @@
+@media (max-width: 1200px){
+    .nav__list, .nav__tools-list{
+        display: none;
+    }
+
+    .news__article-cards{
+        flex-direction: column;
+    }
+
+    input[type='checkbox']{
+        order: 1;
+    }
+
+    .latest__news-cards{
+        flex-direction: column;
+    }
+
+    .nav__menu-btn{
+        display: flex;
+    }
+
+    .nav__list{
+        position: absolute;
+        top: 85%;
+        right: 0;
+        flex-direction: column;
+        background: white;
+        z-index: 100;
+        transform: scaleX(0);
+        opacity: 0;
+        transform-origin: right;
+        transition: .5s;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    input[type='checkbox']:checked~ .nav__list{
+        transform: scaleX(1);
+        opacity: 1;
+    }
+
+    .news__article-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__cards-item{
+        width: 100%;
+    }
+
+    .footer__content{
+        gap: 50px;
+    }
+}
+
+@media (max-width: 992px){
+    .main__header__card-item{
+        flex-direction: column;
+    }
+
+    .show__more{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+
+    .main__header__card-item img{
+        width: 206px;
+    }
+
+    .header__cards-item{
+        width: 426px;
+    }
+
+    .latest__news-title{
+        font-size: 26px;
+    }
+
+    .best__sellers-title{
+        font-size: 26px;
+    }
+
+    .show__more{
+        font-size: 26px;
+    }
+
+    .footer__content{
+        display: none;
+    }
+}
+
+@media (max-width: 576px){
+    .nav__logo{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-right: 0;
+    }
+
+    .nav__logo img{
+        max-width: 130px;
+    }
+
+    .header__cards{
+        flex-direction: column;
+    }
+
+    .header__cards-item{
+        width: 380px;
+        gap: 10px;
+    }
+
+    .header__cards-item-descr{
+        max-width: 150px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .card__item-discount{
+        padding: 8px 28px;
+        font-size: 18px;
+    }
+
+    .main__header__card-item{
+        flex-direction: row;
+        width: 380px;
+        height: 294px;
+        gap: 0;
+    }
+
+    .main__header__card-item img{
+        width: 180px;
+    }
+
+    .nav{
+        width: 100%;
+    }
+
+    .best__sellers-card-item{
+        width: 100%;
+    }
+
+    .header__cards{
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .show__more{
+        display: flex;
+    }
+
+    .header__cards-item{
+        width: 300px;
+        gap: 0;
+    }
+
+    .main__header__card-item{
+        width: 100%;
+        min-width: 300px;
+    }
+
+    .latest__news-cards-item1, .latest__news-cards-item2{
+        width: 100%;
+        min-width: 320px;
+    }
+
+    .card__content{
+        max-width: 300px;
+    }
+
+    .card__item-title{
+        font-size: 16px;
+    }
+
+    .card__item-descr{
+        font-size: 14px;
+    }
+
+    .card__caterogy{
+        padding: 12px 20px;
+    }
+
+    .card__caterogy span{
+        font-size: 14px;
+    }
+
+    .data__and__time span{
+        font-size: 12px;
+    }
+
+    .best__sellers-title{
+        font-size: 22px;
+    }
+
+    .latest__news-title{
+        font-size: 22px;
+    }
+
+    .show__more{
+        font-size: 22px;
+    }
+
+    .best__sellers{
+        padding-top: 30px;
+    }
+}
+
